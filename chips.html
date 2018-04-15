@@ -13495,7 +13495,7 @@
                                   document.getElementById("healthMeterField").checked = isHealthMeterOn;
                                 </script>
                               </span>
-                              <div class="ReorderLink-text font-bold hide-content-max-l">Health Meter</div>
+                              <div class="ReorderLink-text font-bold hide-content-max-l">Health Mode</div>
                             </a>
                           </div>
                           <div class="arrange-fit hide-content-max-m">
@@ -23030,9 +23030,9 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script>
     $(document).ready(function() {
-      const healthScoresList = [70, 60, 80];
+      const healthScoresList = [60, 65, 70, 63];
       const getRandomInteger = (index) => {
-        if (index < 3) { return healthScoresList[index]; }
+        if (index < 4) { return healthScoresList[index]; }
         return Math.round(Math.random() * 100)
       };
 
