@@ -13513,11 +13513,13 @@
         if (thisHealthMeterOn) {
           appendHealthScores();
           $(".cart-container .item-replace-with-btn").show();
+          $(".cart-health-score").show();
         } else {
           removeHealthScores();
           $(".cart-container .item-replace-with-btn").removeClass("replace-with-list--open");
           $(".cart-container .item-replace-with-btn").hide();
           $(".replace-with-list").remove();
+          $(".cart-health-score").hide();
         }
       });
 
